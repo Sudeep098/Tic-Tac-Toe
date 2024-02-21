@@ -1,0 +1,146 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height:90px;
+}
+.lef{
+    background-color:darkorchid;
+    border-radius: 200px;
+}
+.rig{
+    background-color: darkorchid;
+    border-radius: 200px;
+}
+@keyframes bg {
+    from{background-color: blue;}
+    to{background-color: aqua;}
+}
+body{
+    background-color: blue;
+    animation-name: bg ;
+    animation-duration: 10s;
+
+}
+.image{
+    font-size: 10px;
+    width:50px;
+    height:50px;
+    border: 3px solid beige;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+}
+.spl{
+    margin-top: -5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+b{
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.h2{
+    margin:30px;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+
+.list{
+    list-style: none;
+    margin:5px 0;
+    padding: 0 20px;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.litem{
+    margin:30px;
+    padding: 2px;
+    
+}
+.input{
+    width:95vw;
+}
+.item{
+    background-color: black;
+    height: 40px;
+    width:400px;
+    display: flex;
+    color: aliceblue;
+    border-radius: 10px;
+    margin:10px 10px;
+
+}
+.icon2{
+    width: 27px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 24px;
+    margin-left: 11px;
+}
+.icon1{
+    width: 34px;
+    border-radius: 152px;
+    margin: 7px;
+    margin-right: 0px;
+}
+.time{
+    margin-left:149px;
+    margin-top: 13px;
+}
+.icon{
+    width:60px;
+    text-align: center;
+    margin:0 20px;
+    border-radius: 50px;
+    
+}
+.span{
+    margin: 14px 16px;
+    padding-right: 30px;
+    width: 75px;
+    white-space: nowrap;
+    margin-right: 50pxpx;
+}
+
+.icons img{
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 10px;
+
+
+}
+.bottom{
+    display: flex;
+    height:100px;
+    background-color: rgb(110, 44, 196);
+    position: sticky;
+    text-align: center;
+    margin-top:30px;
+    flex-direction: column;
+    
+}
+.container{
+    height:340px;
+    width:700px;
+    background-color: black;
+    border-radius: 20px;
+    background-image: url("bg6.jpg");
+    background-size: 100%;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.songlist{
+
+}
